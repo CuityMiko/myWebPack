@@ -7,6 +7,17 @@
     <title>WebPack入门</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        WebPack入门 test123
+        <button id="btn">点击</button>
+    </div>
+    <script src="bundle.js"></script>
+    <script>
+        $(function(){
+            $("#btn").on('click',function(){
+                console.log('被点击223')
+            })
+        })
+    </script>
 </body>
 </html>
