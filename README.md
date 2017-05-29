@@ -19,4 +19,9 @@
 + 所有webpack里面的配置选项，webpack-dev-server都可以使用并且还可以启动本地服务
 + webpack-dev-server --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src
 + --content-base src:以src目录作为根目录启动一个http服务器
-+ 
+## webpack加载器
++ 安装：
+```
+cnpm install babel-loader --save-dev
+cnpm install babel-core babel-preset-es2015 babel-preset-react --save-dev
+```
